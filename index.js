@@ -13,6 +13,11 @@ app.get('/sobre', function(req,res){
     res.send("Esta pagina está sendo desenvolvida")
 })
 
+app.get('/layout', function(req,res){
+    res.send("Esse é o novo layout")
+})
+
+
 app.listen(3000, function(){
     console.log("conexão inicializada")
 })

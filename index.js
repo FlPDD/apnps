@@ -5,6 +5,10 @@ app.get('/', function(req,res){
     res.send("Olá fellipe")
 })
 
+app.get('/mensagem', function(req,res){
+    res.send("Essa msg é automática")
+})
+
 app.listen(3000, function(){
     console.log("conexão inicializada")
 })
